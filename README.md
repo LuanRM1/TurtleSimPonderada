@@ -23,15 +23,14 @@ Este projeto é um nó ROS2 que controla uma tartaruga em uma simulação do `tu
 
 2.Compile o código:
 
-bash
-
-cd ~/dev_ws
-colcon build
-source install/setup.bash
+```bash
+   cd ~/dev_ws
+   colcon build
+   source install/setup.bash
+```
 
 3.Execute o launch:
 
-bash
-
-cd launch
-ros2 launch launch.py
+```bash
+   cd launch
+   ros2 launch launch.py
