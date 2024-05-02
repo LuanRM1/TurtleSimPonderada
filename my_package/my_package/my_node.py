@@ -74,7 +74,7 @@ class DriverNode(Node):
             self.get_logger().info('Waiting for Kill service...')
             self.kill_client.wait_for_service()
             kill_request = Kill.Request()
-            kill_request.name = self.turtle_name
+            kill_request.name = "turtle1"
             future = self.kill_client.call_async(kill_request)
             rclpy.spin_until_future_complete(self, future)
             try:
