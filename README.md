@@ -1,5 +1,7 @@
 # TurtleSimPonderada
 
+Video de demonstração: [Link do video](https://drive.google.com/file/d/15ieUrrYV3qjIRRR0IJHgpkzn6E0YIZf8/view?usp=drivesdk) 
+
 Este projeto implementa um nó ROS2 para fazer um desenho com o `turtlesim`.
 
 ## Funcionalidades
